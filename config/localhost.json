@@ -1,0 +1,33 @@
+{
+    "headers": {
+        "X_API_KEY": "x-api-key",
+        "X_DEVICE_TYPE": "x-device-type",
+        "X_DEVICE_OS_VERSION": "x-device-os-version",
+        "X_DEVICE_MODEL": "x-device-model",
+        "X_APP_VERSION": "x-app-version",
+        "X_DEVICE_UTC_OFFSET": "x-device-utc-offset",
+        "X_DEVICE_LANG": "x-device-lang",
+        "X_DEVICE_NOTIFICATION_CODE": "x-device-notification-code",
+        "CONTENT_TYPE": "content-type",
+        "AUTHORIZATION": "authorization"
+    },
+    "app": {
+        "port": 51789,
+        "name": "deall-backend",
+        "secretKey": "s3m0gat3mbus"
+    },
+    "jwtOption": {
+        "accessTokenOption": {
+            "issuer": "deall-backend",
+            "jwtid": "deall-backend-user.id",
+            "expiresIn": "1 hours",
+            "subject": "deall-backend-access-token"
+        },
+        "refreshTokenOption": {
+            "issuer": "deall-backend",
+            "jwtid": "deall-backend-user.id",
+            "expiresIn": "1 days",
+            "subject": "deall-backend-refresh-token"
+        }
+    }
+}
