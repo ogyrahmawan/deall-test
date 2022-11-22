@@ -1,6 +1,6 @@
 ## Installation
-npm i
-npm run local
+- npm i
+- npm run local
 
 ## Credential
 - username: ogyrahmawan
